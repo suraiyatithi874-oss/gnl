@@ -1,0 +1,281 @@
+/* ================================
+   HERO
+================================ */
+.config-hero {
+    background: linear-gradient(180deg, #f8fdfb, #ffffff);
+    border-left: 4px solid #074e2d;
+    padding: 28px 32px;
+    border-radius: 12px;
+    margin-bottom: 32px;
+}
+
+.config-hero h1 {
+    margin: 0 0 10px;
+    font-size: 1.9rem;
+}
+
+.lead-text {
+    max-width: 720px;
+    line-height: 1.65;
+    color: #4a5568;
+}
+/* TOC WRAPPER */
+.toc-wrapper {
+    background: #ffffff;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 5px 25px rgba(0,0,0,0.05);
+    margin: 30px 0;
+}
+
+.toc-main-title {
+    color: #2c3e50;
+    font-size: 1.8em;
+    margin-bottom: 40px;
+    text-align: center;
+    font-weight: 700;
+}
+
+/* SECTION ROW */
+.toc-section {
+    display: flex;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+/* Vertical line connecting sections */
+.toc-section:not(:last-child):after {
+    content: '';
+    position: absolute;
+    left: 20px;
+    top: 45px;
+    bottom: -35px;
+    width: 2px;
+    background: #ecf0f1;
+}
+
+.toc-number {
+    width: 40px;
+    height: 40px;
+    background: #074e2d;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 0.9em;
+    z-index: 2;
+    flex-shrink: 0;
+}
+
+.toc-content {
+    margin-left: 25px;
+    flex-grow: 1;
+}
+
+.toc-heading a {
+    color: #1a252f !important;
+    font-size: 1.2em;
+    text-decoration: none;
+    font-weight: 700;
+    transition: color 0.3s;
+}
+
+.toc-heading a:hover {
+    color: #16a085 !important;
+}
+
+/* SUB LIST */
+.toc-sub-list {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 12px;
+}
+
+.toc-sub-list li {
+    background: #f8fbfb;
+    padding: 8px 15px;
+    border-radius: 6px;
+    font-size: 0.95em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid transparent;
+    transition: all 0.2s ease;
+}
+
+.toc-sub-list li:hover {
+    border-color: #16a085;
+    background: #ffffff;
+    transform: translateX(5px);
+}
+
+.toc-sub-list li a {
+    color: #34495e !important;
+    text-decoration: none;
+}
+
+.page-tag {
+    font-size: 0.75em;
+    color: #bdc3c7;
+    background: #fff;
+    padding: 2px 6px;
+    border-radius: 4px;
+    border: 1px solid #eee;
+}
+
+/* ============================ */
+/* Main Features */
+/* ============================ */
+
+/* ================================
+   SECTION DIVIDER
+================================ */
+.section-divider {
+    margin: 40px 0 20px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #ecf0f1;
+}
+
+/* ================================
+   FEATURES GRID
+================================ */
+.features-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+/* ================================
+   FEATURE CARD
+================================ */
+.feature-card {
+    background: #ffffff;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    padding: 22px;
+    transition: box-shadow 0.25s ease, transform 0.25s ease;
+    border-top: 2px solid #074e2d;
+}
+
+.feature-card:hover {
+    box-shadow: 0 10px 20px rgba(0,0,0,0.06);
+    transform: translateY(-2px);
+}
+
+/* ================================
+   CARD HEADER
+================================ */
+.feature-card h4 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 1.05rem;
+    color: #074e2d;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.feature-card h4 i {
+    color: #16a085;
+    font-size: 1.1rem;
+}
+
+/* ================================
+   LISTS
+================================ */
+.feature-card p {
+    margin: 0 0 8px;
+    color: #4a5568;
+}
+
+.toc-list {
+    padding-left: 18px;
+    margin: 0;
+}
+
+.toc-list li {
+    margin-bottom: 6px;
+    color: #475569;
+}
+
+
+/* last part */
+/* ================================
+   CTA BOX
+================================ */
+.cta-box {
+    margin-top: 60px;
+    padding: 36px 28px;
+    border-radius: 16px;
+    text-align: center;
+
+    margin-bottom: 30px;
+
+    background: linear-gradient(
+        135deg,
+        #0d291c 0%,
+        #50e9a7 100%
+    );
+
+    box-shadow: 0 10px 10px rgba(7, 78, 45, 0.25);
+}
+
+/* CTA inner layout */
+.cta-content {
+    max-width: 560px;
+    margin: 0 auto;
+}
+
+/* CTA text */
+.cta-text {
+    margin: 0 0 18px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #e9f5ef;
+}
+
+/* CTA button */
+.btn-primary {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+
+    background: #f0c60b;
+    color: #074e2d;
+
+    padding: 12px 32px;
+    border-radius: 50px;
+
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 0.95rem;
+
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.btn-primary i {
+    transition: transform 0.25s ease;
+}
+
+.btn-primary:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+.btn-primary:hover i {
+    transform: translateX(4px);
+}
+
+/* ================================
+   MOBILE FRIENDLY
+================================ */
+@media (max-width: 600px) {
+    .cta-box {
+        padding: 28px 20px;
+    }
+}

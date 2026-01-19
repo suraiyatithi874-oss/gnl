@@ -1,0 +1,194 @@
+/* Container Spacing */
+.features-section {
+    margin: 30px 0 50px 0;
+}
+
+/* Section Heading */
+.features-header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 25px;
+    padding-left: 5px;
+}
+
+.features-header i {
+    font-size: 1.4rem;
+    color: #16a085; /* Your Primary Green */
+}
+
+.features-header h3 {
+    margin: 0;
+    font-size: 1.5rem;
+    color: #2c3e50;
+    font-weight: 700;
+}
+
+/* The Grid Layout */
+.features-bento-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 20px;
+}
+
+/* Individual Feature Cards */
+.feature-card {
+    background: #ffffff;
+    border: 1px solid #e2e8f0;
+    padding: 20px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+.feature-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
+    border-color: #16a085;
+}
+
+/* Icon Box Styling */
+.card-icon-box {
+    width: 45px;
+    height: 45px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+}
+
+/* Color Variations for Icons */
+.card-icon-box.blue   { background: rgba(52, 152, 219, 0.1); color: #3498db; }
+.card-icon-box.teal   { background: rgba(22, 160, 133, 0.1); color: #16a085; }
+.card-icon-box.orange { background: rgba(230, 126, 34, 0.1); color: #e67e22; }
+.card-icon-box.green  { background: rgba(46, 204, 113, 0.1); color: #2ecc71; }
+
+/* Text Styling */
+.card-text strong {
+    display: block;
+    color: #1a252f;
+    font-size: 1.05rem;
+    margin-bottom: 6px;
+}
+
+.card-text p {
+    margin: 0;
+    font-size: 0.9rem;
+    color: #64748b;
+    line-height: 1.5;
+}
+
+/* how to use */
+
+/* Section Heading */
+.usage-main-title {
+    margin-top: 50px;
+    border-bottom: 2px solid #f1f1f1;
+    padding-bottom: 10px;
+    color: #2c3e50;
+    font-size: 1.6rem;
+}
+
+/* Base Step Styling */
+.usage-step {
+    position: relative;
+    background: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+    padding: 25px;
+    margin-bottom: 20px;
+    transition: transform 0.2s ease;
+}
+
+/* Badge System */
+.step-badge {
+    position: absolute;
+    top: -12px;
+    left: 20px;
+    background: #16a085; /* Default Green */
+    color: white;
+    padding: 4px 14px;
+    border-radius: 6px;
+    font-size: 0.75rem;
+    font-weight: 800;
+    letter-spacing: 0.5px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.badge-blue { background: #2980b9 !important; }
+.badge-red  { background: #e74c3c !important; }
+.badge-grey { background: #7f8c8d !important; }
+
+/* Content Styling */
+.usage-step h4 {
+    margin: 0 0 15px 0;
+    color: #1a252f;
+    font-size: 1.15rem;
+}
+
+.text-teal { color: #16a085; }
+
+.form-instruction-box ol {
+    padding-left: 20px;
+    margin: 0;
+}
+
+.form-instruction-box li {
+    margin-bottom: 10px;
+    color: #4a5568;
+    line-height: 1.6;
+}
+
+.step-content p {
+    margin: 5px 0;
+    font-size: 0.95rem;
+    color: #4a5568;
+}
+
+/* Layout Grid */
+.module-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+/* Interface Preview */
+.interface-preview {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.preview-label {
+    font-weight: 700;
+    color: #7f8c8d;
+    margin-bottom: 15px;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+}
+
+.image-placeholder-frame {
+    background: #f8fafc;
+    border: 2px dashed #cbd5e1;
+    border-radius: 15px;
+    padding: 40px;
+    min-height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.placeholder-icon {
+    font-size: 3rem;
+    color: #cbd5e1;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+    .module-grid {
+        grid-template-columns: 1fr;
+    }
+}
