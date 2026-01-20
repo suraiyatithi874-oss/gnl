@@ -209,4 +209,13 @@
     font-size: 4rem; color: #f1f5f9;
 }
 
-
+.ep-in{
+    margin-top: 5px; color: #4a5568;
+}
+.mg{
+    border-top: 4px solid #e67e22;
+     border-bottom: 1px solid #eee; border-left: 1px solid #eee; border-right: 1px solid #eee; background: #fffdfb;
+}
+.mg-d{
+ background: #e67e22; 
+}

@@ -14,6 +14,7 @@
   <link rel="stylesheet" href="../assets/css/theme_extra.css" type="text/css" />
   <link rel="stylesheet" href="../assets/css/highlight.css">
 <link rel="stylesheet" href="../assets/css/all.min.css">
+<link rel="stylesheet" href="../assets/css/role.css">
 
  
 </head>
@@ -178,8 +179,8 @@
                           <span class="view-btn"><i class="fa fa-search-plus"></i> View Full Image</span>
                         </div>
                       </div>
-                      <figcaption style="padding: 10px; background: #f8fafc; border-top: 1px solid #eee;">
-                        Figure 1.1: Department Setup interface preview
+                      <figcaption class="fig">
+                        Figure 5.1.1: User Role Setup interface preview
                       </figcaption>
                     </figure>
                   </div>
@@ -207,7 +208,7 @@
 
 
 
-            <div class="module-grid" style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-top: 20px;">
+            <div class="module-grid bs" >
                 <div class="usage-step">
                     <div class="step-badge">BASIC MANAGEMENT</div>
                     <ul class="step-list">
@@ -217,9 +218,9 @@
                     </ul>
                 </div>
 
-                <div class="usage-step" style="background: #fdfdfd; border: 1px solid #16a085; padding: 15px; border-radius: 8px;">
-                    <h4 style="margin-top:0; color:#16a085;"><i class="fa fa-lock"></i> Assigning Permissions</h4>
-                    <ol style="padding-left: 18px; font-size: 0.9em;">
+                <div class="usage-step us">
+                    <h4 class="us-h4"><i class="fa fa-lock"></i> Assigning Permissions</h4>
+                    <ol class="us-ol">
                         <li>In the Role List, click the <strong>Permission Icon</strong> for the chosen role.</li>
                         <li><strong>Tick Menu Items:</strong> Check modules (e.g., POS, Accounting) for access.</li>
                         <li><strong>Set Actions:</strong> For each menu, allow <i>New Entry, Edit, View,</i> or <i>Delete</i>.</li>
@@ -251,8 +252,8 @@
                           <span class="view-btn"><i class="fa fa-search-plus"></i> View Full Image</span>
                         </div>
                       </div>
-                      <figcaption style="padding: 10px; background: #f8fafc; border-top: 1px solid #eee;">
-                        Figure 1.1: Department Setup interface preview
+                      <figcaption class="fig">
+                        Figure 5.1.2: user role setup list assign interface preview
                       </figcaption>
                     </figure>
                   </div>
@@ -312,26 +313,30 @@
                 </div>
             </div>
 
-            <h4 style="margin-top:25px;">Account Actions</h4>
-            <div class="module-grid" style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 15px;">
-                <div class="usage-step" style="border: 1px solid #eee; padding: 15px; border-radius: 8px;">
-                    <p><strong><i class="fa fa-key" style="color:#f39c12"></i> Reset Password</strong></p>
-                    <small>Click the Key icon to trigger a password reset instructions for the user.</small>
-                </div>
-                <div class="usage-step" style="border: 1px solid #eee; padding: 15px; border-radius: 8px;">
-                    <p><strong><i class="fa fa-toggle-on" style="color:#16a085"></i> Activate / Deactivate</strong></p>
-                    <small>Use the toggle switch to instantly enable or disable a user account.</small>
-                </div>
-                <div class="usage-step" style="border: 1px solid #eee; padding: 15px; border-radius: 8px;">
-                    <p><strong><i class="fa fa-pencil" style="color:#2980b9"></i> Update User</strong></p>
-                    <small>Modify username, assigned role, or linked branch details.</small>
-                </div>
-                <div class="usage-step" style="border: 1px solid #eee; padding: 15px; border-radius: 8px;">
-                    <p><strong><i class="fa fa-trash" style="color:#e74c3c"></i> Delete User</strong></p>
-                    <small>Permanently remove the account from the system.</small>
-                </div>
-            </div>
 
+            <h2 class="account-header">Account Actions</h2>
+    
+    <div class="module-grid">
+        <div class="usage-step">
+            <p><strong><i class="fa fa-key icon-reset"></i> Reset Password</strong></p>
+            <small>Click the Key icon to trigger a password reset instructions for the user.</small>
+        </div>
+
+        <div class="usage-step">
+            <p><strong><i class="fa fa-toggle-on icon-activate"></i> Activate / Deactivate</strong></p>
+            <small>Use the toggle switch to instantly enable or disable a user account.</small>
+        </div>
+
+        <div class="usage-step">
+            <p><strong><i class="fa fa-pencil icon-update"></i> Update User</strong></p>
+            <small>Modify username, assigned role, or linked branch details.</small>
+        </div>
+
+        <div class="usage-step">
+            <p><strong><i class="fa fa-trash icon-delete"></i> Delete User</strong></p>
+            <small>Permanently remove the account from the system.</small>
+        </div>
+    </div>
 
    <div class="interface-preview-v2">
                   <div class="window-controls">
@@ -351,8 +356,8 @@
                           <span class="view-btn"><i class="fa fa-search-plus"></i> View Full Image</span>
                         </div>
                       </div>
-                      <figcaption style="padding: 10px; background: #f8fafc; border-top: 1px solid #eee;">
-                        Figure 1.1: User Management Table
+                      <figcaption class="fig">
+                        Figure 5.2: System User Setup
                       </figcaption>
                     </figure>
                   </div>
@@ -373,10 +378,10 @@
 
         <footer>
              <div  class="rst-footer-buttons fmt" role="navigation">
-            <a href="../pages/coa.html" class="btn btn-neutral float-right">
+            <a href="../pages/designation.html" class="btn btn-neutral float-right">
               Next <span class="icon icon-circle-arrow-right"></span>
             </a>
-            <a href="../pages/overview.html" class="btn btn-neutral float-left">
+            <a href="../pages/hr-management.html" class="btn btn-neutral float-left">
               <span class="icon icon-circle-arrow-left"></span> Previous
             </a>
           </div>
@@ -398,7 +403,7 @@
       
         
       
-        <span style="margin-left: 15px"><a href="../pages/dashboard.html" style="color: #fcfcfc">Next &raquo;</a></span>
+        <span style="margin-left: 15px"><a href="../pages/designation.html">Next &raquo;</a></span>
       
     </span>
 </div>
