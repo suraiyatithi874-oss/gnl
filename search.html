@@ -1,125 +1,143 @@
 <!DOCTYPE html>
-<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+
+<html class="no-js" lang="en">
+
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
-  <meta name="author" content="thecreation">
-  <link rel="shortcut icon" href="./img/favicon.ico">
-  <title>Remark Admin Template Docs</title>
-  <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
 
-  <link rel="stylesheet" href="./css/theme.css" type="text/css" />
-  <link rel="stylesheet" href="./css/theme_extra.css" type="text/css" />
-  <link rel="stylesheet" href="./css/highlight.css">
-  
-  <script src="./js/jquery-2.1.1.min.js"></script>
-  <script src="./js/modernizr-2.8.3.min.js"></script>
-  <script type="text/javascript" src="./js/highlight.pack.js"></script> 
-  
+  <meta name="author" content="thecreation">
+
+
+  <title>Financial Accounting Docs</title>
+  <link rel="shortcut icon" href="./img/favicon.ico">
+  <link rel="stylesheet" href="./assets/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="./assets/css/theme_extra.css" type="text/css" />
+  <link rel="stylesheet" href="./assets/css/highlight.css">
+   <link rel="stylesheet" href="./assets/css/all.min.css">
+
+
+  <style>
+    /* Professional Result Styling */
+    .search-results-container {
+      margin-top: 20px;
+      font-family: 'Lato', sans-serif;
+    }
+
+    .no-results-card {
+      background: #fff;
+      padding: 40px;
+      border-radius: 12px;
+      text-align: center;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+      border: 1px solid #eee;
+      animation: fadeIn 0.5s ease;
+    }
+
+    .no-results-card i {
+      font-size: 50px;
+      color: #ff6b6b;
+      margin-bottom: 15px;
+      display: block;
+    }
+
+    .no-results-card h2 {
+      color: #eb8440;
+      margin-bottom: 10px;
+    }
+
+    .no-results-card p {
+      color: #7f8c8d;
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(10px);
+      }
+
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+  </style>
+
 </head>
 
 <body class="wy-body-for-nav" role="document">
 
   <div class="wy-grid-for-nav">
 
-    
+
     <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
       <div class="wy-side-nav-search">
-        <a href="index.html" class="icon icon-home"> Remark Admin Template Docs</a>
-        <div role="search">
-  <form id ="rtd-search-form" class="wy-form" action="./search.html" method="get">
-    <input type="text" name="q" placeholder="Search docs" />
-  </form>
-</div>
+        <a href="index.html" class="icon icon-home"> GENERAL CONFIGURATION </a>
+
+        <div class="user-manual-label">
+          User Manual
+        </div>
+
+     <div role="search">
+          <form id="rtd-search-form" class="wy-form" action="./search.html" method="get">
+            <input type="text" name="q" placeholder="Search docs" />
+          </form>
+        </div>
       </div>
 
       <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
-	<ul class="current">
-	  
-          
-            <li class="toctree-l1">
-		
-    <a class="" href="index.html">Home</a>
-	    </li>
-          
-            <li class="toctree-l1">
-		
-    <a class="" href="overview/index.html">1. Overview</a>
-	    </li>
-          
-            <li class="toctree-l1">
-		
-    <a class="" href="generator/index.html">2. Generator</a>
-	    </li>
-          
-            <li class="toctree-l1">
-		
-    <a class="" href="build/index.html">3. Building Tools</a>
-	    </li>
-          
-            <li class="toctree-l1">
-		
-    <a class="" href="files/index.html">4. Files</a>
-	    </li>
-          
-            <li class="toctree-l1">
-		
-    <a class="" href="global/index.html">5. Global Assets</a>
-	    </li>
-          
-            <li class="toctree-l1">
-		
-    <a class="" href="style/index.html">6. Customize Styles</a>
-	    </li>
-          
-            <li class="toctree-l1">
-		
-    <a class="" href="javascript/index.html">7. Modular JavaScript</a>
-	    </li>
-          
-            <li class="toctree-l1">
-		
-    <a class="" href="structure/index.html">8. Template Structure</a>
-	    </li>
-          
-            <li class="toctree-l1">
-		
-    <a class="" href="components/index.html">9. Components</a>
-	    </li>
-          
-            <li class="toctree-l1">
-		
-    <a class="" href="psd/index.html">10. PSD Files</a>
-	    </li>
-          
-            <li class="toctree-l1">
-		
-    <a class="" href="credits/index.html">11. Sources and Credits</a>
-	    </li>
-          
-            <li class="toctree-l1">
-		
-    <a class="" href="support/index.html">12. Support</a>
-	    </li>
-          
-            <li class="toctree-l1">
-		
-    <a class="" href="changelog/index.html">13. Changelog</a>
-	    </li>
-          
-            <li class="toctree-l1">
-		
-    <a class="" href="migration/index.html">14. Migration</a>
-	    </li>
-          
-            <li class="toctree-l1">
-		
-    <a class="" href="faq/index.html">15. FAQ</a>
-	    </li>
-          
+        <ul class="current">
+
+
+          <li class="toctree-l1">
+
+            <a class="" href="index.html">Home</a>
+          </li>
+
+
+
+
+
+
+          <li class="toctree-l1">
+
+            <a class="" href="./pages/overview.html"> overview</a>
+          </li>
+
+          <li class="toctree-l1">
+
+            <a class="" href="./pages/basic.html">1. Basic Settings</a>
+          </li>
+
+          <li class="toctree-l1">
+
+            <a class="" href="./pages/teritory.html">2. Territory Management</a>
+          </li>
+
+          <li class="toctree-l1">
+
+            <a class="" href="./pages/configuration.html">3. Configuration</a>
+          </li>
+
+          <li class="toctree-l1">
+
+            <a class="" href="./pages/hr-management.html">4. HR Management</a>
+          </li>
+
+          <li class="toctree-l1">
+
+            <a class="" href="./pages/role.html">5. Role & User Management</a>
+          </li>
+
+          <li class="toctree-l1">
+
+            <a class="" href="./pages/designation.html">6. Designation & Role Mappings</a>
+          </li>
+
+
+
+
         </ul>
       </div>
       &nbsp;
@@ -127,57 +145,69 @@
 
     <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
 
-      
+
       <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
-        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
-        <a href="index.html">Remark Admin Template Docs</a>
+        <i data-toggle="wy-nav-top" class="fa fa-bars">GENERAL CONFIGURATION</i>
+        <a href="index.html"> Docs</a>
       </nav>
 
-      
+
       <div class="wy-nav-content">
         <div class="rst-content">
-          <div role="navigation" aria-label="breadcrumbs navigation">
-  <ul class="wy-breadcrumbs">
-    <li><a href="index.html">Docs</a> &raquo;</li>
-    
-    
-    <li class="wy-breadcrumbs-aside">
-      
-    </li>
-  </ul>
-  <hr/>
-</div>
+
+
+          <div role="navigation" aria-label="breadcrumbs navigation" class="navigation-pad">
+            <ul class="wy-breadcrumbs square">
+              <li>
+                <a href=" " class="icon icon-home docs"> Docs</a> &raquo;
+              </li>
+              <li class="docs-text">Search</li>
+
+              <li class="wy-breadcrumbs-aside ttl-logo-li">
+                <a href="https://www.taratechltd.com/" target="_blank" rel="noopener noreferrer" class="ttl">
+                  <div class="logo-container logo">
+                    <img src="./assets/images/others/logo-of-ttl.jpg" class="logo-img" alt="TTL Logo">
+                  </div>
+                </a>
+              </li>
+            </ul>
+            <hr class="all-hr">
+          </div>
           <div role="main">
             <div class="section">
-              
 
-  <h1 id="search">Search Results</h1>
 
-  <form id="content_search" action="search.html">
-    <span role="status" aria-live="polite" class="ui-helper-hidden-accessible"></span>
-    <input name="q" id="mkdocs-search-query" type="text" class="search_input search-query ui-autocomplete-input" placeholder="Search the Docs" autocomplete="off" autofocus>
-  </form>
+              <h1 id="search">Search Results</h1>
 
-  <div id="mkdocs-search-results" class="search-results">
-    Searching...
-  </div>
+              <form id="rtd-search-form" class="wy-form" action="./search.html" method="get">
+                <input type="text" class="search_input search-query ui-autocomplete-input" name="q"
+                  placeholder="Search docs" />
+              </form>
+
+
+              <div id="mkdocs-search-results" class="search-results">
+                Searching...
+              </div>
 
 
             </div>
           </div>
           <footer>
-  
 
-  <hr/>
 
-  <div role="contentinfo">
-    <!-- Copyright etc -->
-    
-  </div>
+            <hr />
 
-  Built with <a href="http://www.mkdocs.org">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
-</footer>
-      
+            <div role="contentinfo">
+              <!-- Copyright etc -->
+
+            </div>
+
+
+            <div role="contentinfo">
+              <p>&copy; 2026 <strong>Tara Tech Ltd</strong>. All Rights Reserved.</p>
+            </div>
+          </footer>
+
         </div>
       </div>
 
@@ -187,17 +217,83 @@
 
   <div class="rst-versions" role="note" style="cursor: pointer">
     <span class="rst-current-version" data-toggle="rst-current-version">
-      
-          <a href="https://github.com/thecreation/remark-docs/" class="fa fa-github" style="float: left; color: #fcfcfc"> GitHub</a>
-      
-      
-      
+
+
     </span>
-</div>
-    <script>var base_url = '.';</script>
-    <script src="./js/theme.js"></script>
-      <script src="./search/require.js"></script>
-      <script src="./search/search.js"></script>
+  </div>
+
+  <script src="./assets/js/search_data.js"></script>
+  <script src="./assets/js/jquery-2.1.1.min.js"></script>
+  <script src="./assets/js/modernizr-2.8.3.min.js"></script>
+  <script type="text/javascript" src="./assets/js/highlight.pack.js"></script>
+  <script src="./assets/js/search_index-data.js"></script>
+  <script src="./assets/js/theme.js"></script>
+  <script src="./assets/js/search/require.js"></script>
+  <script src="./assets/js/search/search.js"></script>
+  <script>var base_url = '.';</script>
+  <script>
+    window.onload = function () {
+      const urlParams = new URLSearchParams(window.location.search);
+      const query = urlParams.get('q');
+      const resultsDiv = document.getElementById('mkdocs-search-results');
+
+      if (!query || query.trim() === "") {
+        resultsDiv.innerHTML = `
+            <div class="no-results-card">
+                <h2>Ready to Search</h2>
+                <p>Please type a keyword above to find documentation.</p>
+            </div>`;
+        return;
+      }
+
+      const searchTerm = query.toLowerCase().trim();
+
+      // 1. Try to find an EXACT match first for immediate redirect
+      const exactMatch = searchData.find(item =>
+        item.title.toLowerCase() === searchTerm ||
+        item.tags.toLowerCase().split(' ').includes(searchTerm)
+      );
+
+      if (exactMatch) {
+        resultsDiv.innerHTML = `<div class="no-results-card"><h2>Redirecting to ${exactMatch.title}...</h2></div>`;
+        window.location.href = exactMatch.url;
+        return;
+      }
+
+      // 2. If no exact match, look for PARTIAL matches
+      const partialMatches = searchData.filter(item =>
+        item.title.toLowerCase().includes(searchTerm) ||
+        item.tags.toLowerCase().includes(searchTerm)
+      );
+
+      if (partialMatches.length > 0) {
+        resultsDiv.innerHTML = '<h2>Suggested Results</h2>';
+        partialMatches.forEach(res => {
+          resultsDiv.innerHTML += `
+                <div style="margin-bottom: 15px; padding: 15px; border: 1px solid #eee; border-radius: 8px;">
+                    <a href="${res.url}" style="font-size: 18px; color: #4d035e; font-weight: bold; text-decoration: none;">
+                        ${res.title}
+                    </a>
+                    <p style="margin: 5px 0 0; color: #666; font-size: 13px;">Path: ${res.url}</p>
+                </div>`;
+        });
+      } else {
+        // 3. SHOW THE BEAUTIFUL ERROR MESSAGE
+        resultsDiv.innerHTML = `
+            <div class="no-results-card">
+                <i class="fa fa-exclamation-circle"></i>
+                <h2>Oops! Nothing Found</h2>
+                <p>We couldn't find any results for "<strong>${query}</strong>".</p>
+                <p style="margin-top:10px; font-size: 0.9em;">Please enter a correct keyword like "Home", "Day Close", or "Reports".</p>
+                <button onclick="document.querySelector('.search_input').focus()" 
+                        style="margin-top:20px; padding: 10px 20px; background: #7f8c8d; color: white; border: none; border-radius: 5px; cursor: pointer;">
+                    Try Again
+                </button>
+            </div>`;
+      }
+    };
+  </script>
 
 </body>
+
 </html>

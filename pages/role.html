@@ -9,17 +9,13 @@
   <title>1. Overview - general Configuration</title>
 
   <link rel="shortcut icon" href="../img/favicon.ico">
-  <link href="https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700" rel="stylesheet">
-
+ 
   <link rel="stylesheet" href="../assets/css/theme.css" type="text/css" />
   <link rel="stylesheet" href="../assets/css/theme_extra.css" type="text/css" />
   <link rel="stylesheet" href="../assets/css/highlight.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="../assets/css/all.min.css">
 
-
- <script src="../assets/js/jquery-2.1.1.min.js"></script>
-  <script src="../assets/js/modernizr-2.8.3.min.js"></script>
-  <script type="text/javascript" src="../assets/js/highlight.pack.js"></script>
+ 
 </head>
 
 <body class="wy-body-for-nav" role="document">
@@ -53,12 +49,12 @@
 
          <li class="toctree-l1">
 		
-    <a class="" href="./overview.html">1.  Overview</a>
+    <a class="" href="./overview.html">  Overview</a>
 	    </li>
 
          <li class="toctree-l1">
 		
-    <a class="" href="./basic.html">2. Basic Settings</a>
+    <a class="" href="./basic.html">1. Basic Settings</a>
 	    </li>
        
           
@@ -67,24 +63,24 @@
           
             <li class="toctree-l1">
 		
-    <a class="" href="./teritory.html">3. Territory Management</a>
+    <a class="" href="./teritory.html">2. Territory Management</a>
 	    </li>
           
             <li class="toctree-l1">
 		
-    <a class="" href="./configuration.html">4. Configuration</a>
+    <a class="" href="./configuration.html">3. Configuration</a>
 	    </li>
           
             <li class="toctree-l1">
 		
-    <a class="" href="./hr-management.html">5. HR Management</a>
+    <a class="" href="./hr-management.html">4. HR Management</a>
 	    </li>
           
             <li class="toctree-l1 current">
-          <a class="current" href=" ">6. Role & User Management</a>
+          <a class="current" href=" ">5. Role & User Management</a>
           <ul>
-            <li><a class="toctree-l3" href="#user-role-setup">6.1 User Role Setup</a></li>
-            <li><a class="toctree-l3" href="#user-setup">System User Setup</a></li>
+            <li><a class="toctree-l3" href="#usmn">5.1 User Role Setup</a></li>
+            <li><a class="toctree-l3" href="#user-setup">5.2 System User Setup</a></li>
             
           </ul>
         </li>
@@ -94,7 +90,7 @@
           
             <li class="toctree-l1">
 		
-    <a class="" href="./designation.html">7. Designation & Role Mappings</a>
+    <a class="" href="./designation.html">6. Designation & Role Mappings</a>
 	    </li>
        
 
@@ -107,18 +103,11 @@
     <div class="wy-nav-content">
       <div class="rst-content">
 
-  <!-- <div role="navigation" aria-label="breadcrumbs navigation">
-  <ul class="wy-breadcrumbs">
-    <li><a href="index.html">Docs</a> &raquo;</li>
-    
-      
-    
-    <li>Overview</li>
-   
-  </ul>
-  <hr/>
-</div> -->
+  
 
+        <!-- =====================================
+                       head part
+          ======================================= -->
     <div role="navigation" aria-label="breadcrumbs navigation" class="navigation-pad">
             <ul class="wy-breadcrumbs square">
               <li>
@@ -145,7 +134,7 @@
         
    <div class="config-hero">
     <div class="system-badge">configuration</div>
-    <h1>6. Role & User Management</h1>
+    <h1 id="usmn">5.1 Role & User Management</h1>
     <p class="lead-text">
                 Control system access and security. Define what functions different roles can perform and manage the individual accounts of your system users.
                  
@@ -170,6 +159,37 @@
         </div>
     </div>
 </div>
+
+   <div class="interface-preview-v2">
+                  <div class="window-controls">
+                    <span class="dot red"></span>
+                    <span class="dot yellow"></span>
+                    <span class="dot green"></span>
+                    <!-- <span class="window-title">Outlet Setup Interface</span> -->
+                  </div>
+
+                  <div class="image-container">
+                    <figure class="custom-figure" style="margin: 0;">
+                      <div class="img-wrapper">
+                        <img src="../assets/images/role-user-management/usser-role-setup/index.JPG"
+                          alt="Promotion Management Interface" class="preview-img">
+
+                        <div class="img-overlay" onclick="openModal(this)">
+                          <span class="view-btn"><i class="fa fa-search-plus"></i> View Full Image</span>
+                        </div>
+                      </div>
+                      <figcaption style="padding: 10px; background: #f8fafc; border-top: 1px solid #eee;">
+                        Figure 1.1: Department Setup interface preview
+                      </figcaption>
+                    </figure>
+                  </div>
+                </div>
+<div id="imageModal" class="modal" onclick="closeModal()">
+    <span class="close-modal">&times;</span>
+    <img class="modal-content" id="fullImg">
+    <div id="caption"></div>
+</div>
+
 
             <div class="nav-hint">
     <div class="nav-label">
@@ -212,17 +232,46 @@
             
         </div>
 
+        
+   <div class="interface-preview-v2">
+                  <div class="window-controls">
+                    <span class="dot red"></span>
+                    <span class="dot yellow"></span>
+                    <span class="dot green"></span>
+                    
+                  </div>
+
+                  <div class="image-container">
+                    <figure class="custom-figure" style="margin: 0;">
+                      <div class="img-wrapper">
+                        <img src="../assets/images/role-user-management/usser-role-setup/list-assign.jpg"
+                          alt="Promotion Management Interface" class="preview-img">
+
+                        <div class="img-overlay" onclick="openModal(this)">
+                          <span class="view-btn"><i class="fa fa-search-plus"></i> View Full Image</span>
+                        </div>
+                      </div>
+                      <figcaption style="padding: 10px; background: #f8fafc; border-top: 1px solid #eee;">
+                        Figure 1.1: Department Setup interface preview
+                      </figcaption>
+                    </figure>
+                  </div>
+                </div>
+<div id="imageModal" class="modal" onclick="closeModal()">
+    <span class="close-modal">&times;</span>
+    <img class="modal-content" id="fullImg">
+    <div id="caption"></div>
+</div>
+
         <hr class="section-divider" />
 
-        <div class="territory-block" id="user-setup">
-            <h2 class="section-title">6.2 System User Setup</h2>
-            <!-- <div class="purpose-box">
-                <strong>Purpose:</strong> Central interface for administrators to manage user accounts—including credentials, status, and role assignments.
-            </div>
 
-            <div class="nav-hint">
-                <i class="fa fa-user-circle"></i> <strong>Navigation:</strong> Menu <i class="fa fa-chevron-right"></i> Role & User Management <i class="fa fa-chevron-right"></i> System User Setup
-            </div> -->
+        <!-- =====================================
+                    5.2   System User Setup part
+          ======================================= -->
+        <div class="territory-block" id="user-setup">
+            <h2 class="section-title text">5.2 System User Setup</h2>
+          
 
   <div class="purpose-box pb-m">
     <div class="purpose-container">
@@ -283,10 +332,37 @@
                 </div>
             </div>
 
-            <div class="interface-preview">
-                <p class="preview-label">User Management Table</p>
-                
-            </div>
+
+   <div class="interface-preview-v2">
+                  <div class="window-controls">
+                    <span class="dot red"></span>
+                    <span class="dot yellow"></span>
+                    <span class="dot green"></span>
+                    <!-- <span class="window-title">Outlet Setup Interface</span> -->
+                  </div>
+
+                  <div class="image-container">
+                    <figure class="custom-figure" style="margin: 0;">
+                      <div class="img-wrapper">
+                        <img src="../assets/images/role-user-management/system-user-setup/index.JPG"
+                          alt="Promotion Management Interface" class="preview-img">
+
+                        <div class="img-overlay" onclick="openModal(this)">
+                          <span class="view-btn"><i class="fa fa-search-plus"></i> View Full Image</span>
+                        </div>
+                      </div>
+                      <figcaption style="padding: 10px; background: #f8fafc; border-top: 1px solid #eee;">
+                        Figure 1.1: User Management Table
+                      </figcaption>
+                    </figure>
+                  </div>
+                </div>
+<div id="imageModal" class="modal" onclick="closeModal()">
+    <span class="close-modal">&times;</span>
+    <img class="modal-content" id="fullImg">
+    <div id="caption"></div>
+</div>
+
         </div>
 
     </div>
@@ -296,7 +372,7 @@
 
 
         <footer>
-             <div style="margin-top: 10px;" class="rst-footer-buttons" role="navigation">
+             <div  class="rst-footer-buttons fmt" role="navigation">
             <a href="../pages/coa.html" class="btn btn-neutral float-right">
               Next <span class="icon icon-circle-arrow-right"></span>
             </a>
@@ -320,17 +396,22 @@
   <div class="rst-versions" role="note" style="cursor: pointer">
     <span class="rst-current-version" data-toggle="rst-current-version">
       
-          <!-- <a href="https://github.com/thecreation/remark-docs/" class="fa fa-github" style="float: left; color: #fcfcfc"> GitHub</a>
-      
-       -->
+        
       
         <span style="margin-left: 15px"><a href="../pages/dashboard.html" style="color: #fcfcfc">Next &raquo;</a></span>
       
     </span>
 </div>
 
- <script src="../assets/js/theme.js"></script>
-      <script src="../assets/js/search/require.js"></script>
-      <script src="../assets/js/search/search.js"></script>
+ <script src="../assets/js/search_data.js"></script>
+  <script src="../assets/js/jquery-2.1.1.min.js"></script>
+  <script src="../assets/js/modernizr-2.8.3.min.js"></script>
+  <script type="text/javascript" src="../assets/js/highlight.pack.js"></script>
+  <script src="../assets/js/search_index-data.js"></script>
+  <script src="../assets/js/theme.js"></script>
+  <script src="../assets/js/search/require.js"></script>
+  <script src="../assets/js/search/search.js"></script>
+
+
 </body>
 </html>

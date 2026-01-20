@@ -903,10 +903,27 @@ figcaption:hover {
     color: var(--primary-deep);
     margin: 8px 0 10px;
 }
+/* Option A: Be more specific */
+h2.text {
+   
+       font-size: 1.9rem !important;
+    font-weight: 750 !important;
+    color: var(--accent-blue) !important;;
+    margin: 8px 0 10px !important;;
+}
+
+
+/* #terms-conditions {
+    color: var(--primary-deep);
+} */
 
 .lead-text {
     font-size: 1rem;
     line-height: 1.65;
     max-width: 720px;
     color: #4a5568;
+}
+
+.fmt{
+    margin-top: 10px;
 }
